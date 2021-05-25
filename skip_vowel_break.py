@@ -1,6 +1,6 @@
 st = 'Programming'
 for ch in st:
     if ch in ['a','e','i','o','u']:
-        break
+        continue
     print(ch)
 print("The End")
